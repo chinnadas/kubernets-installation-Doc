@@ -47,8 +47,10 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join 172.31.6.174:6443 --token lb560q.0bj0jzydfmsfc0ge \
     --discovery-token-ca-cert-hash sha256:54bf02f3772cfc2d6ac80498adf94867efce3d61507bb9e37177039f1b8a2d36
 
-pod networ flannel
-=================
+pod network flannel
+===================
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/62e44c867a2846fefb68bd5f178daf4da3095ccb/Documentation/kube-flannel.yml
+
 
 
 
