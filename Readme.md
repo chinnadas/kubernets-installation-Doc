@@ -14,7 +14,9 @@ kubelet, kubectl, kubeadmin installation
 
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-runtime
 
+
 kubeadm init --pod-network-cidr=10.244.0.0/16
+=============================================
 
 Your Kubernetes control-plane has initialized successfully!
 
