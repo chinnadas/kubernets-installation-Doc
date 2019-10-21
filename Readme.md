@@ -36,4 +36,6 @@ kubeadm join 172.31.6.174:6443 --token lb560q.0bj0jzydfmsfc0ge \
 
 pod network flannel
 ===================
-kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/62e44c867a2846fefb68bd5f178daf4da3095ccb/Documentation/kube-flannel.yml
+
+
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
